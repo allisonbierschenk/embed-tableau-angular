@@ -13,7 +13,7 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit {
   @ViewChild('viewingViz') viewingViz!: ElementRef;
 
   private viewing!: TableauViz;
-  public vizUrl: string = 'https://public.tableau.com/views/ShopifyOverviewRAWNutritionConcept/ShopifyOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link';
+  public vizUrl: string = 'https://public.tableau.com/views/IBMBillingOrdersDashboards/NewSummaryDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link';
 
   ngOnInit(): void {
     // ViewChild is not available yet in ngOnInit
